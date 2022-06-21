@@ -152,7 +152,11 @@ header nav ul li a:hover {
 
 .hero p {
 
-    margin-top: 170px;
+    margin-top: 180px;
+
+        margin-right: -25px;
+
+            font-weight: bold;
 }
 
 main {
