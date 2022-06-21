@@ -223,6 +223,8 @@ section {
                         display: flexbox;
 
                             float: left;
+
+                                justify-content: space-evenly;
 }
 
 
@@ -315,6 +317,31 @@ section {
     margin-left: 700px;
 }
 
+.container {
+
+        position: relative;
+}
+
+.text-block {
+
+    position: absolute;
+
+        bottom: 31px;
+
+            left: 50px;
+
+                color: white;
+
+                    padding-left: 0;
+
+                        padding-right: 0px;
+
+                            padding-bottom: 0px;
+
+                                background-color: var(--tertiary-color);
+                                                                                             
+}
+
 .contact {
 
     background-color: var(--primary-color);
@@ -356,7 +383,7 @@ section {
 
         justify-content: space-between;
 
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
 
 }
 
@@ -380,6 +407,11 @@ section {
 .icons {
 
     display: flex;
+}
+
+.phone {
+
+    margin-top: 25px;
 }
 
 @media screen and (max-width: 980px) {
