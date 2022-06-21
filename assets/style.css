@@ -2,7 +2,7 @@
 
     --primary-color: rgb(188, 189, 189);
     --secondary-color: rgb(5, 4, 4);
-    --tertiary-color: ;
+    --tertiary-color: rgb(0, 0, 0);
 }
 
 
@@ -139,9 +139,9 @@ header nav ul li a:hover {
     
                 height: 350px;
     
-                    background-image: url(../assets/images/background.jfif);
+                    background-image: url(../assets/images/background2.jpg);
     
-                        color: black;
+                        color: var(--tertiary-color);
     
                             text-align: right;
         
@@ -166,6 +166,18 @@ main {
                 text-align: center;
 }
 
+.footer {
+
+    padding: 30px;
+
+        clear: both;
+
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+                text-align: right;
+
+}
+
 .me {
 
     background-color: var(--primary-color);
@@ -174,7 +186,9 @@ main {
 
             text-align: left;
 
-                flex-wrap: nowrap;                                         
+                flex-wrap: nowrap;  
+                
+                    font-size: 30px;
 
 }
 
@@ -198,22 +212,20 @@ section {
 
 .intro p {
 
-    line-height: 1.7;
+     color: var(--secondary-color);
 
-        color: var(--secondary-color);
+        width: 100%;
 
-            width: 80%;
+            font-size: 25px;
 
-                font-size: 20px;
-
-                    margin: 0 auto;
+                max-height: 75px;
 
                         display: flexbox;
 
-                            flex-direction: column;
-
-                                float: left;
+                            float: left;
 }
+
+
 
 .section-title {
 
@@ -258,6 +270,49 @@ section {
                     flex-wrap: wrap;
 
                         justify-content: space-around;
+}
+
+.pic-1, .pic-2 {
+
+    max-width: 600px;
+
+        max-height: 600px;
+
+            display: inline-block;
+
+                border: 5px solid var(--tertiary-color);
+
+                    margin: 0;
+
+                        padding: 0;
+
+                            box-sizing: border-box;
+
+                                text-align: left;
+
+                                    font-size: large;
+
+
+}
+
+.pic-1:hover {
+
+    opacity: 0.2;
+}
+
+.pic-2:hover {
+
+    opacity: 0.2;
+}
+
+.box-1 {
+
+    margin-left: 400px;
+}
+
+.box-2 {
+
+    margin-left: 700px;
 }
 
 .contact {
@@ -315,15 +370,21 @@ section {
 
 .contact-info img {
 
-    max-width: 100px;
+    max-width: 150px;
 
         max-height: 100px;
 
          justify-content: space-around;
 }
 
+.icons {
+
+    display: flex;
+}
+
 @media screen and (max-width: 980px) {
 
+    
 
   }
   
