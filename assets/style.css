@@ -3,6 +3,7 @@
     --primary-color: rgb(188, 189, 189);
     --secondary-color: rgb(5, 4, 4);
     --tertiary-color: rgb(0, 0, 0);
+    
 }
 
 
@@ -12,8 +13,6 @@
         padding: 0 25px 25px 25px;
 
             box-sizing: border-box;
-
-        
 
 }
 
@@ -49,6 +48,8 @@ header
                                     background-attachment: fixed;
 
                                         background-position: 100%;
+
+                                            flex-wrap: wrap;
                                         
 
                                                                                        
@@ -147,7 +148,7 @@ header nav ul li a:hover {
         
                                 font-family: Georgia, 'Times New Roman', Times, serif;
 
-                                    font-size: x-large;
+                                    font-size: 24px;
 }
 
 .hero p {
@@ -157,6 +158,8 @@ header nav ul li a:hover {
         margin-right: -25px;
 
             font-weight: bold;
+
+                font-size: 24px;
 }
 
 main {
@@ -224,18 +227,16 @@ section {
 
                 max-height: 75px;
 
-                        display: flexbox;
+                    float: left;
 
-                            float: left;
-
-                                justify-content: space-evenly;
+                        justify-content: space-evenly;
 }
 
 
 
 .section-title {
 
-    font-size: 60px;
+    font-size: 48px;
 
         color: var(--secondary-color);   
 
@@ -276,15 +277,18 @@ section {
                     flex-wrap: wrap;
 
                         justify-content: space-around;
+                         
 }
 
-.pic-1, .pic-2 {
+.pic-1 {
 
     max-width: 600px;
 
-        max-height: 600px;
+        max-height: 800px;
 
-            display: inline-block;
+            display: flex;
+
+                flex-wrap: wrap;
 
                 border: 5px solid var(--tertiary-color);
 
@@ -296,7 +300,32 @@ section {
 
                                 text-align: left;
 
-                                    font-size: large;
+                                    font-size: 48px;
+
+                                        height: 500px;
+
+
+}
+
+.pic-2 {
+
+    max-width: 550px;
+
+        max-height: 550px;
+
+            display: flex;
+
+                border: 5px solid var(--tertiary-color);
+
+                    margin: 0;
+
+                        padding: 0;
+
+                            box-sizing: border-box;
+
+                                text-align: left;
+
+                                    font-size: 48px;
 
 
 }
@@ -372,7 +401,7 @@ section {
 
 .contact-info p {
 
-    margin: 16px 0;
+    margin: 0 auto;
 
         line-height: 1.5;
 
@@ -388,6 +417,8 @@ section {
         justify-content: space-between;
 
             flex-wrap: nowrap;
+
+                margin-bottom: -75px;
 
 }
 
@@ -418,18 +449,20 @@ section {
     margin-top: 25px;
 }
 
+/* For screens smaller than 980px */
 @media screen and (max-width: 980px) {
 
-    
+   
+   }
 
-  }
-  
+/* For screens smaller than 980px */
   @media screen and (max-width: 768px) {
 
   
     
   }
 
+/* For screens smaller than 575px */
   @media screen and (max-width: 575px) {
 
 

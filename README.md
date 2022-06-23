@@ -8,8 +8,7 @@ A website portfolio for Garen Demirdogen.
 * CSS
 
 ## Website
-https://github.io/my-portfolio/
+https://github.io/8bit-banjo/
 
-## Contribution
-Made with ❤️ by Garen Demirdogen 
+![alt text](./assets/images/Portfolio%20Screenshot.png "Screenshot of my portfolio")
 # my-portfolio
