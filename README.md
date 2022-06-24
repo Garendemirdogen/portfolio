@@ -7,8 +7,11 @@ A website portfolio for Garen Demirdogen.
 * HTML
 * CSS
 
-## Website
-https://github.io/8bit-banjo/
+## Live Link
+https://garendemirdogen.github.io/8bit-banjo/
+
+## Github Repository
+https://github.io/8bit-banjo/ 
 
 ![alt text](./assets/images/Portfolio%20Screenshot.png "Screenshot of my portfolio")
 # my-portfolio
