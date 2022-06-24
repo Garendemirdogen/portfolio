@@ -327,15 +327,41 @@ section {
 
                                     font-size: 48px;
 
+                                        width: 700px;
+
+                                            height: 300px;
+
 
 }
 
-.pic-1:hover {
+.pic-3 {
 
-    opacity: 0.2;
+    max-width: 550px;
+
+        max-height: 550px;
+
+            display: flex;
+
+                border: 5px solid var(--tertiary-color);
+
+                    margin: 0;
+
+                        padding: 0;
+
+                            box-sizing: border-box;
+
+                                text-align: left;
+
+                                    font-size: 48px;
+
+                                        width: 700px;
+
+                                            height: 300px;
+
+
 }
 
-.pic-2:hover {
+.pic-1:hover, .pic-2:hover, .pic-3:hover {
 
     opacity: 0.2;
 }
@@ -345,9 +371,17 @@ section {
     margin-left: 400px;
 }
 
-.box-2 {
+.box-2, .box-3 {
 
-    margin-left: 700px;
+    display: inline-block;
+        
+        flex-wrap: wrap;
+    
+            list-style: none;
+    
+                align-items: center;
+
+                    margin-left: 125px;
 }
 
 .container {
@@ -359,9 +393,9 @@ section {
 
     position: absolute;
 
-        bottom: 31px;
+        bottom: 63px;
 
-            left: 50px;
+            left: 30px;
 
                 color: white;
 
@@ -373,6 +407,11 @@ section {
 
                                 background-color: var(--tertiary-color);
                                                                                              
+}
+
+.text-block p {
+
+    font-size: 20px;
 }
 
 .contact {
@@ -447,12 +486,13 @@ section {
 .phone {
 
     margin-top: 25px;
+
+        width: 240px;
 }
 
 /* For screens smaller than 980px */
 @media screen and (max-width: 980px) {
-
-   
+      
    }
 
 /* For screens smaller than 980px */
