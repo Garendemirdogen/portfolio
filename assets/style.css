@@ -38,18 +38,16 @@ header
                 display: flex;
 
                     justify-content: space-between;
+                                                          
+                        background-size: 100px;
 
-                        background-color: var(--primary-color);
-                                            
-                             background-size: 100px;
+                            background-position: center;
 
-                                background-position: center;
+                                background-attachment: fixed;
 
-                                    background-attachment: fixed;
+                                    background-position: 100%;
 
-                                        background-position: 100%;
-
-                                            flex-wrap: wrap;
+                                        flex-wrap: wrap;
                                         
 
                                                                                        
@@ -493,18 +491,101 @@ section {
 /* For screens smaller than 980px */
 @media screen and (max-width: 980px) {
       
+    header { 
+
+        display: flex;
+
+            justify-content: center;
+
+    }
+
+    .hero {
+
+        display: inline-flex;
+    }
+
+    main p {
+
+        display: contents;
+
+    }
+
+    .container {
+
+        display: table-header-group;
+
+    }
+
+    .contact-info {
+
+        display: block;
+            
+            max-width: 100%;
+    
+                text-align: center;
+    }
+
+    .icons {
+
+        display: inherit;
+        
+            text-align: center;
+    }
+
+    footer {
+
+            display: flex;
+
+    }
+
+
    }
 
-/* For screens smaller than 980px */
+/* For screens smaller than 768px */
   @media screen and (max-width: 768px) {
 
+        header { 
+
+        display: flex;
+
+            justify-content: center;
+
+    }
+
+    main p {
+
+        display: contents;
+
+    }
+
+    .container {
+
+        display: table-header-group;
+
+    }
+
+    .contact-info {
+
+        display: block;
+            
+            max-width: 100%;
+    
+                text-align: center;
+    }
+
+    .icons {
+
+        display: inherit;
+        
+            text-align: center;
+    }
+
+    footer {
+
+            display: flex;
+
+    }
   
     
   }
 
-/* For screens smaller than 575px */
-  @media screen and (max-width: 575px) {
-
-
-    
-  }
