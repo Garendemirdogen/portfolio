@@ -564,6 +564,19 @@ section {
 
     }
 
+    .intro {
+
+        display: flex;
+        
+            flex-wrap: nowrap;
+        
+                text-align: left;
+        
+                    width: 400px;
+    
+    
+    }
+
     .container {
 
         display: table-header-group;
@@ -577,6 +590,11 @@ section {
             max-width: 100%;
     
                 text-align: center;
+    }
+
+    .section-title {
+
+        font-size: 90%;
     }
 
     .icons {
