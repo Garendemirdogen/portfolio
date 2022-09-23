@@ -8,10 +8,10 @@ A website portfolio for Garen Demirdogen.
 * CSS
 
 ## Live Link
-https://garendemirdogen.github.io/8bit-banjo/
+https://garendemirdogen.github.io/portfolio/
 
 ## Github Repository
-https://github.com/Garendemirdogen/8bit-banjo.git
+https://github.com/Garendemirdogen/portfolio.git
 
 ![alt text](./assets/images/Portfolio%20Screenshot.png "Screenshot of my portfolio")
 # my-portfolio
