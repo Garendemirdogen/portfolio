@@ -364,6 +364,34 @@ section {
 
 
 }
+
+/* Coming soon password generator picture */
+.pic-3 {
+
+    max-width: 550px;
+
+        max-height: 550px;
+
+            display: flex;
+
+                border: 5px solid var(--tertiary-color);
+
+                    margin: 0;
+
+                        padding: 0;
+
+                            box-sizing: border-box;
+
+                                text-align: left;
+
+                                    font-size: 48px;
+
+                                        width: 700px;
+
+                                            height: 300px;
+
+
+}
 /* changes the opacity of the pictures on hover */
 .pic-1:hover, .pic-2:hover, .pic-3:hover {
 
